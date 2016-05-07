@@ -7745,7 +7745,7 @@ general purpose rectifier, 1 A</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="ISCP" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="VCC" library="con-ptr500" deviceset="AK500/2" device=""/>
@@ -7782,7 +7782,7 @@ general purpose rectifier, 1 A</description>
 <instance part="P+1" gate="VCC" x="25.4" y="35.56" rot="R180"/>
 <instance part="GND6" gate="1" x="-2.54" y="53.34"/>
 <instance part="GND7" gate="1" x="12.7" y="73.66"/>
-<instance part="JP1" gate="A" x="104.14" y="2.54"/>
+<instance part="ISCP" gate="A" x="104.14" y="2.54"/>
 <instance part="P+5" gate="VCC" x="121.92" y="10.16"/>
 <instance part="GND4" gate="1" x="121.92" y="-2.54"/>
 <instance part="VCC" gate="-1" x="96.52" y="106.68" rot="R270"/>
@@ -7854,7 +7854,7 @@ general purpose rectifier, 1 A</description>
 <junction x="17.78" y="76.2"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="ISCP" gate="A" pin="6"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="109.22" y1="0" x2="116.84" y2="0" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="6"/>
@@ -7902,7 +7902,7 @@ general purpose rectifier, 1 A</description>
 <wire x1="22.86" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="ISCP" gate="A" pin="2"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="109.22" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="5.08" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
@@ -7976,7 +7976,7 @@ general purpose rectifier, 1 A</description>
 <pinref part="IC2" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="ISCP" gate="A" pin="5"/>
 <wire x1="101.6" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
@@ -7989,7 +7989,7 @@ general purpose rectifier, 1 A</description>
 <pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
 <wire x1="78.74" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="20.32" x2="96.52" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="ISCP" gate="A" pin="1"/>
 <wire x1="96.52" y1="5.08" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7998,13 +7998,13 @@ general purpose rectifier, 1 A</description>
 <pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="78.74" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="17.78" x2="93.98" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="ISCP" gate="A" pin="3"/>
 <wire x1="93.98" y1="2.54" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="ISCP" gate="A" pin="4"/>
 <wire x1="109.22" y1="2.54" x2="116.84" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="2.54" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
